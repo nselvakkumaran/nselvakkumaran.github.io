@@ -15,4 +15,9 @@ First go to CMD prompt in Kudu console.
  
 
 
+And in the python function import as follows
+  import sys
+  sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'lib')))
+  sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'azenv/Lib/site-packages')))
 
+  # lib folder is where one could upload other python scripts as import modules.
